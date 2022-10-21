@@ -5,7 +5,7 @@ import java.sql.*;
 public class DatabaseConnection {
     private String url= "jdbc:mysql://localhost:3306/payroll";
     private String username = "root";
-    private String password = "Tuboneurale15!";
+    private String password = "root";
     private Connection connection;
     private Statement st;
 
